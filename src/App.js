@@ -18,7 +18,6 @@ const items = [
 function App() {
   return (
     <div className="App">
-      <h1>Widgets App</h1>
       <Accordion items={items} />
     </div>
   );
