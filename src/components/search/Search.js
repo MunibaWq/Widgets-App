@@ -4,8 +4,10 @@ const Search = () => {
   const [term, setTerm] = useState("");
   console.log("I RUN WITH EVERY RENDER");
   useEffect(() => {
-    console.log("I RUN AFTER EVERY RENDER AND AT INITIAL RENDER");
-  });
+    console.log(
+      "I RUN AFTER EVERY RENDER AND AT INITIAL RENDER AND WHEN DATA HAS CHANGED (in this case the state 'term')"
+    );
+  }, [term]);
 
   return (
     <div>
