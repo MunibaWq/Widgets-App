@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion/Accordion";
+import ColorInput from "./components/ColorInput";
 import Search from "./components/search/Search";
 
 const items = [
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       {/* <Accordion items={items} /> */}
       <Search />
+      <ColorInput />
     </div>
   );
 }
