@@ -6,7 +6,7 @@ export const Color = styled.div`
   width: 36px;
   height: 14px;
   border-radius: 2px;
-  background: ${props.color};
+  /* background: {color} */
 `;
 
 // background: `rgba(${this.state.color.r}, ${this.state.color.g}, ${this.state.color.b}, ${this.state.color.a})`,
